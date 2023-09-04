@@ -2,6 +2,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import Slide1 from "../../assets/wallpaperflare.com_wallpaper.jpg";
 import Slide2 from "../../assets/2.jpg";
 import Slide3 from "../../assets/3.jpg";
+import Grafis from"../../assets/supergrafis_big.png"
 
 // Import Swiper styles
 import "swiper/css";
@@ -34,6 +35,7 @@ export default function Slider() {
           <img src={Slide3} />
         </SwiperSlide>
       </Swiper>
+      <img src={Grafis}/>
     </>
   );
 }

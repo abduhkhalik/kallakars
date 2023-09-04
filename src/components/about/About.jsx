@@ -3,14 +3,15 @@ import Pic from "../../assets/Pak Hasanudin.jpeg";
 const About = () => {
   return (
     <section className="py-16 bg-slate-200">
+      
       <div className="container">
         <div className="flex justify-center items-center">
           <div className="flex flex-wrap lg:flex-nowrap lg:gap-5">
             <div className="w-full lg:w-1/2">
-              <img src={Pic} className="rounded-xl" alt="Sultan Hasanudin" />
+              <img src={Pic} className="rounded-xl w-full h-[800px]" alt="Sultan Hasanudin" />
             </div>
             <div className="w-full lg:w-1/2">
-              <h1 className="text-3xl font-bold">About Us</h1>
+              <h1 className="text-3xl font-bold text-green-800">About Us</h1>
 
               <div className="text-base">
                 <h2 className="text-lg font-bold my-5">
@@ -51,8 +52,8 @@ const About = () => {
                 </p>
                 <div>
                   <span className="font-bold">Hormat kami,</span> <hr/>
-                  <span className="font-semibold">Muhammad Hasanuddin Muchlis</span> <hr/>
-                  <span className="underline"><em>Branch Manager Kalla Kars cabang Palu.</em></span>
+                  <span className="font-semibold underline">Muhammad Hasanuddin Muchlis</span> <hr/>
+                  <span className="text-slate-500"><em>Branch Manager Kalla Kars cabang Palu.</em></span>
                 </div>
               </div>
             </div>
